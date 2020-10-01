@@ -45,7 +45,7 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
-
+//  navigation
 const navTags = document.getElementsByTagName("a");
 console.log(navTags);
 
@@ -66,3 +66,40 @@ about.textContent = "About";
 
 const contact = navTags[5];
 contact.textContent = "Contact";
+
+//header
+const hOneHeader = document.getElementsByTagName("hi");
+hOneHeader.textContent = "Dom Is Awesome";
+console.log(hOneHeader);
+
+const button = document.getElementsByTagName("button");
+button.textContent = "Get Started";
+console.log(button);
+
+const ctaImage = document.getElementById("cta-img");
+ctaImage.setAttribute("src", "img/header-img.png");
+
+const mainContentFeatures = document.getElementsByTagName("h4");
+mainContentFeatures.textContent = "Features";
+console.log(mainContentFeatures);
+
+const mainContentAbout = document.getElementsByTagName("h4");
+mainContentAbout.textContent = "About";
+console.log(mainContentAbout);
+
+//middle image
+const middleImage = document.getElementById("middle-img");
+middleImage.setAttribute("src", "img/mid-page-accent.jpg");
+console.log(middleImage);
+
+const mainContentServices = document.getElementsByTagName("h4");
+mainContentAbout.textContent = "Services";
+console.log(mainContentServices);
+
+const mainContentProduct = document.getElementsByTagName("h4");
+mainContentProduct.textContent = "Product";
+console.log(mainContentProduct);
+
+const mainContentVision = document.getElementsByTagName("h4");
+mainContentVision.textContent = "Vision";
+console.log(mainContentVision);
