@@ -131,3 +131,18 @@ const visionContent = document.querySelectorAll(
   ".bottom-content .text-content p"
 );
 visionContent[2].textContent = siteContent["main-content"]["vision-content"];
+
+const contactContent = document.querySelector(".contact h4");
+contactContent.textContent = siteContent.contact["contact-h4"];
+
+const contactAddress = document.querySelectorAll(".contact p");
+contactAddress[0].textContent = siteContent.contact.address;
+
+const contactPhone = document.querySelectorAll(".contact p");
+contactPhone[1].textContent = siteContent.contact.phone;
+
+const contactEmail = document.querySelectorAll(".contact p");
+contactEmail[2].textContent = siteContent.contact.email;
+
+const footerContent = document.querySelector("footer p");
+footerContent.textContent = siteContent.footer.copyright;
